@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paolo Tous</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900
+&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="images/logo.jpg" alt="">
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+    <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">Academic</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Introduction -->
+<section class="intro" id="home">
+<h1 class="section__title section__title--intro">
+    Welcome, I am <strong>Paolo Tous</strong>
+</h1>
+    <p class="section__subtitle section__subtitle--intro">Software Developer</p>
+    <img src="images/Casual2.jpg" alt="Paolo at the MLSE Fair" class="intro__img">
+</section>
+
+<!--My Education-->
+<section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Academic life</h3>
+            <p>Currently studying Computer Programming and Analysis at George Brown College. I am in the fourth semester
+                of a 3 years (6 semesters) program</p>
+            <p>I'm proud to announce that I have been consistently making the Dean's Honour List. Currently maintaining
+            an overall GPA of 3.95</p>
+        </div>
+
+        <div class="service">
+            <h3>Future academic plans</h3>
+            <p>My plan is to pursue the Applied A.I. Solutions post-graduate program at George Brown.</p>
+            <p>The post-graduate diploma would also allow me to apply for a Masters in Computer Science
+                at Ryerson where I'd be able to further develop my research in Deep Learning and Neural Networks.</p>
+            <!--<p>I am currently looking for a Junior Software Developer position where I would be able to meet people,
+             collaborate, solve challenging problems and develop powerful code that would benefit the company and
+             have a positive impact on the team</p> !-->
+        </div>
+
+        <div class="service">
+            <h3>Additional Research</h3>
+            <p>I am currently also enrolled in a 10-week Machine Learning Course at Stanford University taught by
+            Professor Andrew Ng</p>
+            <p>I also purchase books that I find interesting and valuable.
+                Last book I gained new insights from was O'Reilly's Hands-On Machine Learning with Scikit-Learn, Keras and
+            Tensorflow. Written by Aurelien Geron</p>
+        </div>
+    </div>  <!-- Closing Academic Life Section -->
+    <a href="#work" class="btn">My Work</a>
+</section>
+
+<!-- About Me -->
+<section class="about-me" id="about">
+<h2 class="section__title section__title--about">Who I am</h2>
+<p class="section__subtitle section__subtitle--about">My passion for coding</p>
+    <div class="about-me__body">
+      <p>I have always enjoyed programming, from learning new technologies to solving complex problems. I like the thinking process that naturally comes with being a Developer </p>
+        <p>I spend my free time researching Machine Learning algorithms and practicing my skills as a Software Developer with Data Structures & Algorithms problems on websites like HackerRank</p>
+        <p>I like talking to people and they consider me one of the easiest people to talk to which has helped me meet a lot of people, build lasting relationships and learn new things consistently</p>
+    </div>
+    <img src="images/Fancy.jpg" alt="Paolo" class="about-me__img">
+</section>
+
+<!-- My Work -->
+<section class="my-work" id="work">
+<h2 class="section__title section__title--work">My Work</h2>
+    <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+
+    <div class="portfolio">
+        <!-- Portfolio Items -->
+        <a class="portfolio__item">
+            <img src="images/work-01.jpg" alt="Front-end" class="portfolio__img">
+        </a>
+
+        <a class="portfolio__item">
+            <img src="images/work-02.jpg" alt="Storing information inside a database" class="portfolio__img">
+        </a>
+
+        <a class="portfolio__item">
+            <img src="images/work-04.jpg" alt="User-Friendly" class="portfolio__img">
+        </a>
+
+        <a class="portfolio__item">
+            <img src="images/work-06.jpg" alt="Validations" class="portfolio__img">
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<a href="mailto:paolo.tous@georgebrown.ca" class="footer__link">paolo.tous@georgebrown.ca</a>
+    <ul class="social-list">
+          <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/paoloreus" >
+              <i class="fab fa-github"></i>
+              Gitub (School)</a>
+          </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/paolotous">
+                <i class="fab fa-github"></i>
+                Gitub (Personal)</a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/paolotous/">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn</a>
+        </li>
+    </ul>
+</footer>
+
+<script src="js/index.js"></script>
+</body>
+</html>
