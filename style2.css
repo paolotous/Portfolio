@@ -305,6 +305,7 @@ header {
 .section__title--services {
     color: var(--clr-accent);
     position: relative;
+    margin-right: 70px;
 }
 
 .section__title--services::after {
